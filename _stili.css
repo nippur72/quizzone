@@ -1,0 +1,306 @@
+/*********************************************** TESTO ******************************/
+
+.TitoloColorato {
+   /*font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;*/
+   /*font-family: Segoe UI,Tahoma,sans-serif;*/
+   /*font-size: 14px;    */
+   font-size: 18px;    
+   font-weight: bold;
+   color: #244669;
+}
+
+.TestoBold {
+   /*font-family: Segoe UI,Tahoma,sans-serif;*/
+   /* font-size: 13px; */   
+   font-size: 15px; 
+   font-weight: bold;
+   color: #244669;
+}
+
+.TestoNormale {
+   /*font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;*/
+
+   /*
+   font-family: Segoe UI, Tahoma, sans-serif;
+   font-size: 13px;    
+   */
+
+   /*font-family: Segoe UI, Tahoma, sans-serif;*/
+   font-size: 15px;    
+}
+
+.TestoPiccolo {
+   /*font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 11px;*/
+   /*
+   font-family: Segoe UI,Tahoma,sans-serif;	
+   font-size: 12px;
+   */
+   /*font-family: Segoe UI,Tahoma,sans-serif;	*/
+   font-size: 13px;
+}
+
+.TestoWarning {
+   /*font-family: Segoe UI,Tahoma,sans-serif;*/
+   /* font-size: 13px; */   
+   font-size: 15px; 
+   font-weight: bold;
+   color: red;
+}
+
+.weak {
+   color: #666;
+}
+
+.c1 {
+   color: #123;
+}
+
+.left {
+   text-align: left;
+}
+
+.right {
+   text-align: right;
+}
+
+.center {
+   text-align: center;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.middle {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*********************************************** HEADER, CONTENT, FOOTER ******************************/
+
+/*stili per il layout fisso con altezza minima*/
+
+/*
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background-color: #ddd;   
+}
+*/
+
+/* bs4 */
+html, body {
+   margin: 0;
+   padding: 0;
+   height: 100%;   
+}
+
+
+header {
+   margin: 0;
+   padding: 0;
+}
+
+img {
+   margin: 0;
+   padding: 0;
+}
+
+/*
+#content {
+  display: table-row;
+  height: 100%; 
+}
+*/
+
+#titolo_sito {
+   font-size: x-large;
+   font-weight: bold; 
+   /*color: #89255f  */
+   color: #ccc;  
+}
+
+.centerdiv {
+   margin-left: auto;
+   margin-right: auto;
+   display: table;     
+}
+
+.debug * {
+   border: 1px solid red;
+}
+
+/*
+@media screen and (max-width:600px) 
+{
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    #container {
+        position: relative;
+        width: auto;
+        height: auto;
+        min-height: initial;
+        margin: 0;
+        text-align: left;
+        background-color: #fff;
+        box-shadow: initial;
+        -moz-box-shadow: initial;
+        -webkit-box-shadow: initial;
+        margin-bottom: initial;
+    }
+    img {
+	    max-width:570px;	
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 1.3) 
+{
+    .TitoloColorato { font-size: 18px; }
+    .TestoBold      { font-size: 18px; }
+    .TestoNormale   { font-size: 18px; }
+    .TestoPiccolo   { font-size: 18px; }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+       only screen and (-o-min-device-pixel-ratio : 3/2),
+       only screen and (min-device-pixel-ratio : 1.5) 
+{
+    .TitoloColorato { font-size: 30px;  }
+    .TestoBold      { font-size: 27px;  }
+    .TestoNormale   { font-size: 27px;  }
+    .TestoPiccolo   { font-size: 24px;  }
+}
+
+@media screen and (min-device-pixel-ratio: 2.0) 
+{
+    .TitoloColorato { font-size: 28px;  }
+    .TestoBold      { font-size: 26px;  }
+    .TestoNormale   { font-size: 26px;  }
+    .TestoPiccolo   { font-size: 24px;  }
+}
+
+*/
+
+/*********************************** ANCORE *********************************/
+
+a {
+   color: #000000;
+}
+
+a img {
+	border: 0px;
+}
+
+/********************* tabella leggera ****************/
+        
+.lighttable {
+   border-collapse: collapse;
+   border: 1px solid #aaa;
+   background-color: white;
+   border-spacing: 0px;
+}
+
+.lighttable td, .lighttable th {
+   padding: 4px;
+   border: 1px solid #bbb;
+}
+
+.lighttable th {
+   background-color: #ddf4f9;
+}     
+
+/********************* tabella per form ****************/
+        
+.formtable {
+   border-collapse: collapse;
+   border: 0px solid #aaa;
+   background-color: #DDF4F9;     
+}
+                           l
+.formtable td {
+   padding: 5px;
+   border: 0px;
+}
+
+
+/***************** link-pulsanti ***********************/
+
+.linkpuls {
+   display: inline-block;
+   zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+   *display: inline;
+   vertical-align: baseline;
+   margin: 0 2px;
+   outline: none;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+	
+   padding: .5em ;
+   /*
+   font: 14px/100% Segoe UI,Tahoma,sans-serif;
+   text-shadow: 0 1px 1px rgba(0,0,0,.3);
+   -webkit-border-radius: .5em; 
+   -moz-border-radius: .5em;
+   border-radius: .5em;
+   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   box-shadow: 0 1px 2px rgba(0,0,0,.2);
+   */
+}
+
+.linkpuls:hover {
+   background-color: #345679;
+   color: white;
+}
+
+.linkpuls:active
+{
+   position: relative;
+   top: 1px;
+   color: white;
+   background-color: #547699;
+}
+
+
+/******************************* PRINTING (posto in fondo per max priorità) ************************************/
+
+.printonly 
+{ 
+	display: none; 
+}
+
+/******************* zona nuova *****************/
+
+h1 {
+   text-align: center;
+
+   /*font-family: Segoe UI,Tahoma,sans-serif;*/
+   /*font-size: 14px;    */
+   font-size: 18px;    
+   font-weight: bold;
+   color: #244669;
+}
+
+h2 {
+   text-align: center;
+   /*font-family: Segoe UI, Tahoma, sans-serif;*/
+   font-size: 15px;    
+   font-weight: normal;
+}
+
+.form-input {
+   background-color: #DDF4F9;    
+   margin: auto;     
+   display: table;
+   padding: 0.25em;
+}
+

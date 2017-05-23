@@ -1,0 +1,19 @@
+html, body {
+   background-color: #ddd;   
+}
+
+@media print 
+{
+   .noprint {
+	   display: none;   
+   }
+   .printonly { 
+	   display: block; 
+   }  
+}
+
+/* allinea le checkbox di bootstrap */
+.form-check-input:only-child {
+   position: relative;
+   top: 0.07rem;   
+}
